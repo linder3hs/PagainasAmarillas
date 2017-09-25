@@ -36,11 +36,11 @@ public class ResultadoAdapter extends RecyclerView.Adapter<ResultadoAdapter.View
 
     @Override
     public void onBindViewHolder(ResultadoAdapter.ViewHolder holder, int position) {
-        String name = datosResultados.get(position).getNameEmpresa();
-        String direccion = datosResultados.get(position).getDireccion();
-        String lugar = datosResultados.get(position).getLugar();
-        String numero = datosResultados.get(position).getNumero();
-        int imagen = datosResultados.get(position).getImagen();
+        final String name = datosResultados.get(position).getNameEmpresa();
+        final String direccion = datosResultados.get(position).getDireccion();
+        final String lugar = datosResultados.get(position).getLugar();
+        final String numero = datosResultados.get(position).getNumero();
+        final int imagen = datosResultados.get(position).getImagen();
 
 
         holder.name.setText(name);
@@ -53,6 +53,11 @@ public class ResultadoAdapter extends RecyclerView.Adapter<ResultadoAdapter.View
             public void onClick(View view) {
                 Log.d("Tag","hola");
                 Intent intent = new Intent(view.getContext(),DetalleCardActivity.class);
+                intent.putExtra("nombre",name);
+                intent.putExtra("direccion",direccion);
+                intent.putExtra("lugar",lugar);
+                intent.putExtra("numero",numero);
+                intent.putExtra("imagen",imagen);
                 view.getContext().startActivity(intent);
 
             }
