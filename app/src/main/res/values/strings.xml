@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PagainasAmarillas</string>
+    <string name="qu_busca">Qué busca :</string>
+    <string name="donde">Dónde :</string>
+    <string name="ciudades"> Ciudades</string>
+    <string name="cerca_de_m">Cerca de mí</string>
+    <string name="ubucaion">ubucaion</string>
+    <string name="sucursales">Sucursales</string>
+    <string name="nombre_prueba">Nombre prueba</string>
+    <string name="direccion">direccion</string>
+    <string name="numero_980999">numero: 980999</string>
+</resources>
