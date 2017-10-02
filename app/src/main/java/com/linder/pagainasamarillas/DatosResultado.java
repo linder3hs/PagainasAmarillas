@@ -11,7 +11,7 @@ public class DatosResultado {
     private int imagen;
     private String numero;
 
-    public DatosResultado(String nameEmpresa, String direccion, String lugar, String numero, int imagen) {
+    public void setDatosResultado(String nameEmpresa, String direccion, String lugar, String numero, int imagen) {
         this.nameEmpresa = nameEmpresa;
         this.direccion = direccion;
         this.lugar = lugar;

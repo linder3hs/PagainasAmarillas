@@ -9,4 +9,5 @@
     <string name="nombre_prueba">Nombre prueba</string>
     <string name="direccion">direccion</string>
     <string name="numero_980999">numero: 980999</string>
+    <string name="nombre_de_lugar">Dirección:</string>
 </resources>

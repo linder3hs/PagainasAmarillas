@@ -24,11 +24,11 @@ public class ResultadoActivity extends AppCompatActivity {
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        mAdapter = new ResultadoAdapter(getData());
+       // mAdapter = new ResultadoAdapter(getData());
         recyclerView.setAdapter(mAdapter);
 
     }
-        public List<DatosResultado> getData() {
+       /* public List<DatosResultado> getData() {
 
             List<DatosResultado> userModels = new ArrayList<>();
             userModels.add(new DatosResultado("LinderTec","mi casa","surco","989772179", R.drawable.logopizza));
@@ -38,6 +38,6 @@ public class ResultadoActivity extends AppCompatActivity {
             userModels.add(new DatosResultado("LinderTec","mi casa5","surco","989772179", R.drawable.logopizza));
 
             return userModels;
-        }
+        }*/
 
     }

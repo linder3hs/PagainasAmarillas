@@ -21,7 +21,6 @@
         android:layout_margin="6dp">
 
         <LinearLayout
-            android:background="@drawable/bg_linear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -59,30 +58,16 @@
                     android:textSize="18sp"/>
             </LinearLayout>
             <LinearLayout
-                android:background="@drawable/bg_linear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <ImageView
+                    android:layout_gravity="center"
                     android:id="@+id/imagen"
                     android:layout_width="wrap_content"
-                    android:layout_height="60dp"
+                    android:layout_height="100dp"
                     android:src="@drawable/logopizza"
-                    android:layout_margin="6dp"/>
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="36dp"
-
-                    android:text="@string/sucursales"
-                    android:textAllCaps="false"
-                    android:textColor="#3c3d3d"
-                    android:textSize="17sp"
-                    android:padding="8dp"
-                    android:layout_margin="6dp"
-                    android:gravity="center"
-                    android:background="@drawable/bg_sucrusales"
-                    android:layout_gravity="center"/>
-
+                    />
             </LinearLayout>
 
         </LinearLayout>

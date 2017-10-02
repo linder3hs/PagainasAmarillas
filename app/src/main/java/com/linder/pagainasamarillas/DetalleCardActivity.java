@@ -19,8 +19,6 @@ public class DetalleCardActivity extends AppCompatActivity {
         direcciondetalle = (TextView) findViewById(R.id.direccionDetalle);
         numerodetalle = (TextView) findViewById(R.id.numeroDetalle);
         lugardetalle = (TextView) findViewById(R.id.luagrDetalle);
-
-
         fondo = (ImageView) findViewById(R.id.fondoImagen);
 
         String name = getIntent().getExtras().getString("nombre");
